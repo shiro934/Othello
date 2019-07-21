@@ -13,5 +13,111 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ヘッダー ファイル\Constants">
+      <UniqueIdentifier>{b396c258-586a-4c8f-852a-ed07cc069fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Resident">
+      <UniqueIdentifier>{7fe5a9e1-57f3-438b-a4e0-2df30b3cc5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Input">
+      <UniqueIdentifier>{caac5d23-1523-43e5-92df-0f97c8549f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Base">
+      <UniqueIdentifier>{31344a40-d2a2-4085-bef2-4ead43f173f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Resident">
+      <UniqueIdentifier>{a56078b5-6780-4099-bca2-8e9edb068333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Input">
+      <UniqueIdentifier>{bda8400c-2fb4-494b-8d42-d1181b0a5570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{26d5d93c-69b8-4d8d-a466-1b808f70242e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Base">
+      <UniqueIdentifier>{91406b52-8089-4719-8ef7-d6326cfd23e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{5c858ffd-90d3-4054-87fa-01553ed2c0b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameComponents">
+      <UniqueIdentifier>{529870c2-c0ca-420f-82d5-7a0c290fd474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameComponents">
+      <UniqueIdentifier>{7e171abf-79e7-4a31-885d-5ddf74bb45ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Fps.cpp">
+      <Filter>ソース ファイル\Resident</Filter>
+    </ClCompile>
+    <ClCompile Include="Resident.cpp">
+      <Filter>ソース ファイル\Resident</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\Resident</Filter>
+    </ClCompile>
+    <ClCompile Include="InputKey.cpp">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMouse.cpp">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowInfo.h">
+      <Filter>ヘッダー ファイル\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="Fps.h">
+      <Filter>ヘッダー ファイル\Resident</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ヘッダー ファイル\Resident</Filter>
+    </ClInclude>
+    <ClInclude Include="InputKey.h">
+      <Filter>ヘッダー ファイル\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputKeyState.h">
+      <Filter>ヘッダー ファイル\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Resident.h">
+      <Filter>ヘッダー ファイル\Resident</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneType.h">
+      <Filter>ヘッダー ファイル\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardInfo.h">
+      <Filter>ヘッダー ファイル\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardCellType.h">
+      <Filter>ヘッダー ファイル\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMouse.h">
+      <Filter>ヘッダー ファイル\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseButtonState.h">
+      <Filter>ヘッダー ファイル\Input</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
