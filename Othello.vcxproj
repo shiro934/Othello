@@ -119,6 +119,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="BoardCheck.cpp" />
     <ClCompile Include="Fps.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="InputKey.cpp" />
@@ -130,7 +132,9 @@
     <ClCompile Include="TitleScene.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Board.h" />
     <ClInclude Include="BoardCellType.h" />
+    <ClInclude Include="BoardCheck.h" />
     <ClInclude Include="BoardInfo.h" />
     <ClInclude Include="Fps.h" />
     <ClInclude Include="GameScene.h" />

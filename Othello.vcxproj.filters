@@ -75,6 +75,12 @@
     <ClCompile Include="InputMouse.cpp">
       <Filter>ソース ファイル\Input</Filter>
     </ClCompile>
+    <ClCompile Include="BoardCheck.cpp">
+      <Filter>ソース ファイル\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>ソース ファイル\GameComponents</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WindowInfo.h">
@@ -118,6 +124,12 @@
     </ClInclude>
     <ClInclude Include="MouseButtonState.h">
       <Filter>ヘッダー ファイル\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>ヘッダー ファイル\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardCheck.h">
+      <Filter>ヘッダー ファイル\GameComponents</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
